@@ -1,4 +1,4 @@
-LoadMaster Template for Zabbix 3.0
+LoadMaster Template for Zabbix 3.0 
 ===================
 
 このテンプレートはZABBIXでLoadMasterのシステム統計情報やVirtualService、RealServerなどのディスカバリ(自動登録)、監視を行えるものです。
