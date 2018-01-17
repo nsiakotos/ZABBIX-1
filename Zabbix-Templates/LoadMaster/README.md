@@ -1,4 +1,4 @@
-LoadMaster Template
+LoadMaster Template for Zabbix 3.0
 ===================
 
 This template use the IPVS-MIB and B100-MIB to discover and manage LoadMaster.
