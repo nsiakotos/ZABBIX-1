@@ -848,7 +848,7 @@
                 <item>
                     <name>Memory Used</name>
                     <type>15</type>
-                    <snmp_community/>
+                    <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>memUsed</key>
@@ -1190,7 +1190,7 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Total　Virtual Services</name>
+                    <name>Total Virtual Services</name>
                     <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
@@ -1222,7 +1222,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>LoadMasterに登録されている全体のVS数</description>
+                    <description>LoadMaster</description>
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap/>
@@ -1421,7 +1421,7 @@
                             <publickey/>
                             <privatekey/>
                             <port/>
-                            <description>IF-MIB::ifHCInOctets × 8bit (bps)</description>
+                            <description>IF-MIB::ifHCInOctets - 8bit (bps)</description>
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
@@ -2020,8 +2020,7 @@
                     <port>161</port>
                     <filter>:</filter>
                     <lifetime>30</lifetime>
-                    <description>IPVS-MIB::rSDesc&#13;
-※VSのNickNameを取得</description>
+                    <description>IPVS-MIB::rSDescriptionName</description>
                     <item_prototypes>
                         <item_prototype>
                             <name>Real Server Active Connections on {#SNMPVALUE} index.{#SNMPINDEX}</name>
@@ -2629,8 +2628,7 @@
                     <port>161</port>
                     <filter>:</filter>
                     <lifetime>30</lifetime>
-                    <description>B100-MIB::vSname&#13;
-※VSのNickNameを取得</description>
+                    <description>B100-MIB::vSnameNickName</description>
                     <item_prototypes>
                         <item_prototype>
                             <name>Real Server for this Virtual Service on {#SNMPVALUE}</name>
