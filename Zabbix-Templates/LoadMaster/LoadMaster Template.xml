@@ -3532,7 +3532,7 @@
             <macros/>
             <templates>
                 <template>
-                    <name>Template ICMP Ping</name>
+                    <name>Template Module ICMP Ping</name>
                 </template>
             </templates>
             <screens/>
